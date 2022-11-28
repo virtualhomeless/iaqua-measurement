@@ -9,7 +9,7 @@ import javax.persistence.*;
 public class Measurement {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long mseId;
 
     @Column(name = "mseDateAndHour",nullable = false)
